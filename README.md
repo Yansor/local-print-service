@@ -16,7 +16,7 @@ A local printing service based on WebSocket, allowing for flexible data transfer
 ```shell
 $ git clone https://github.com/Yansor/local-print-service.git
 $ cd local-print-service
-$ pyinstaller -i "logo.ico"  -w -F  main.py --onefile --noconsole --disable-windowed-traceback
+$ pyinstaller -i "logo.ico"  -w -F  print.py --onefile --noconsole --disable-windowed-traceback
 ```
 
 ## Preview
